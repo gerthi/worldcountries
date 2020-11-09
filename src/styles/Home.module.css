@@ -1,0 +1,18 @@
+.header_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.counts {
+  margin: 12px 0;
+  color: var(--text-secondary);
+  flex: 1;
+}
+
+@media screen and (max-width: 720px) {
+  .header_row {
+    flex-direction: column;
+  }
+}
